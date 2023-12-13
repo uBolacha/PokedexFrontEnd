@@ -1,0 +1,192 @@
+
+
+/* GERAL */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    
+    background-image: url(img/poke.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+
+#pokemon {
+    margin: 0px 50px 0px 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    padding: 60px;
+    
+}
+
+
+
+.pokemons {
+    display: flex;
+    justify-content: space-around ;
+    grid-gap: 10px;
+    padding: 12px;
+    width: 100%;
+    
+}
+
+#imagem {
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 30%;
+    height: 100%;
+}
+
+
+p {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
+.borda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.borda:hover {
+    transform: scale(1.02); 
+    transition: transform 0.4s;
+}
+
+.borda button{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(87, 87, 87);
+    border-radius: 2px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #C12026;
+    color: white;
+    border-bottom: 3px solid black;
+    
+}
+
+header button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+header a {
+    color: white;
+}
+
+.logo{
+    display:flex ;
+    align-items: center;
+}
+
+#ftdodjabodapokebola{
+    width: 50px;
+    margin-right: 20px;
+}
+
+#djabodaftpokedex{
+    width: 50px;
+    margin-right: 20px;
+}
+
+#pikachuLogo{
+    width: 50px;
+    margin-bottom: 10px
+}
+
+#ftHeaderDetalhes{
+    width: 50px;
+}
+
+#ftTituloInvent{
+    width: 50px;
+    margin-bottom: 5px
+    
+}
+/* BOTÕES */
+
+#djabodaftpokedex:hover{
+transform: scale(1.07);
+transition:  0.3s;
+}
+
+#btCards{
+    display: flex;
+    gap: 10px;
+    padding: 8px;
+}
+
+#btAddDex, #btRemoverDex{
+    display: flex;
+    padding: 8px;
+    border-radius: 2px;
+    border: 1px solid rgb(87, 87, 87);
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 200px;
+    cursor: pointer; 
+    transition:  0.3s;
+}
+#btAddDex:hover, #btRemoverDex:hover{
+    transform: scale(1.04);
+    background-color: #ec4242;
+}
+
+#btDetalhes{
+    display: flex;
+    padding: 8px;
+    border-radius: 2px;
+    border: 1px solid rgb(87, 87, 87);
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 200px;
+    cursor: pointer; 
+    transition:  0.3s;
+}
+
+#btDetalhes:hover{
+    transform: scale(1.04);
+    background-color: #ec4242;
+}
+
+#btDetalhes a{
+    color: black;
+}
+
